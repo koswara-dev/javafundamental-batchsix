@@ -28,6 +28,8 @@ public class UIManager {
             for (RuangBidang ruangBidang : bidang) {
                 ruangBidang.draw();
             }
+        } else {
+            System.out.println(text);
         }
     }
 
