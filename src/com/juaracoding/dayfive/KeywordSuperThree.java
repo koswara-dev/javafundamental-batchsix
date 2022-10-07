@@ -7,7 +7,7 @@ package com.juaracoding.dayfive;
 class Employee {
     Employee()
     {
-        System.out.println("Person class Constructor");
+        System.out.println("Employee class Constructor");
     }
 }
 
@@ -18,13 +18,13 @@ class Manager extends Employee {
         // invoke or call parent class constructor
         super();
 
-        System.out.println("Student class Constructor");
+        System.out.println("Manager class Constructor");
     }
 }
 
 public class KeywordSuperThree {
     public static void main(String[] args)
     {
-        Manager s = new Manager();
+        Manager manager = new Manager();
     }
 }

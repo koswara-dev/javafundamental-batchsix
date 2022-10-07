@@ -2,7 +2,7 @@ package com.juaracoding.dayfive;
 
 // Java code to show use of super keyword with variables
 // Base class vehicle
-class Vehicle {
+class Vehicle { // parent class
     int maxSpeed = 120;
 }
 
